@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+
+    margin-top: 10px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgb(16, 0, 235) 0%, rgb(250, 5, 5) 100%);
+color:  rgba(255,0,0,1);
+flex-direction: row;
+}
+input{
+    padding: 7px;
+    margin-top:20px;
+    width: 25vw;
+    height: 5vh;
+    border: 2px solid ;
+    border-radius: 1.5vw;
+}
+input:hover{
+    background-color: aqua ; 
+}
+.header>h1{
+   margin-left: 20px;
+
+}
+.mar{
+    padding: 8px;
+    margin-left: 20px;
+}
+.header>h3{
+    height: 5vh;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    background-color: rgb(239, 243, 239);
+    color: rgb(5, 5, 5);
+    padding: 8px;
+    border-radius: 10px;
+   
+box-shadow:#333 -1.5px 0.7px 1px; 
+font-size: 1.2rem;
+}
+
+.header>h4{
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin-left: 20vw;
+}

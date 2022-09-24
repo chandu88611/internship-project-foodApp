@@ -1,0 +1,10 @@
+.App{
+  position: relative;
+  display: flexbox;
+  width: 100vw;
+  height: 100vh;
+}
+.footer{
+  position: absolute;
+  bottom: 0px;
+}

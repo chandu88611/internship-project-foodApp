@@ -1,0 +1,81 @@
+.details{
+    display: flex;
+    flex-direction: row;
+   padding: 10px;
+   
+
+}
+.f_b1>button{
+
+/* margin-left: 34px;
+margin-top: 15px; */
+border-radius: 5px;
+
+box-shadow:#333 -1.5px 0.7px 1px; 
+}
+
+
+.view_but{
+    padding: 15px;
+    background-color: rgba(6, 72, 255, 0.884);
+color: white;
+}
+.add_but{
+    padding: 15px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+}
+.update_but{
+    padding: 15px;
+    background-color: yellow;
+    color: rgb(3, 3, 3);
+}
+.delete_but{
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(230, 230, 230);
+}
+button:hover{
+    /* box-shadow:rgb(255, 0, 179) 5px 5px 5px;  */
+    box-shadow: rgba(247, 36, 201, 0.979) 0px 50px 100px -20px, rgba(170, 248, 25, 0.993) 0px 30px 60px -30px, rgba(82, 168, 253, 0.938) 0px -2px 6px 0px inset;
+ 
+}
+.f_b1{
+    display: flex;
+    justify-content: center;
+    border: 0.1px solid grey;
+    align-items: center;
+    margin: 2px;
+    padding: 10px;
+    box-shadow:rgb(83, 82, 83) 1px 0.5px 0px;
+}
+
+.f_b1:hover{
+    box-shadow:none;
+    border: none;
+}
+
+.info_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+.info{
+  
+    margin: 10px;
+    margin-left: 70px;
+    width: 17vw;
+    height: 30vh;
+    border: 1px solid grey;
+}
+
+.info{
+    display: flex;
+    background-color: black;
+    color: aqua;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,74 @@
+.login {
+  background-color: hsl(219, 48%, 8%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login>h2{
+  color: aliceblue;
+}
+
+.contact_form {
+  width: 60%;
+  border-radius: 5px;
+  /* background-color: rgb(252, 249, 249); */
+    background-color: greenyellow;
+  box-shadow: 0 0 20px rgba(247, 244, 244, 0.959);
+  display:flex;
+  flex-direction:column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  
+  /* animation: divTransition 3s linear forwards; */
+}
+.form{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+}
+
+.form>input{
+  border: thin;
+  box-shadow: 0 0 10px;
+  animation: contactFormTransition 1s linear forwards;
+}
+.submit>button{
+  /* margin-left: 26vw; */
+  width: 8vw;
+  background: indianred;
+  
+  animation: buttonTransition 3s linear forwards;
+}
+
+
+@keyframes contactFormTransition {
+  from {
+    transform: translatex(-100%);
+  }
+  to {
+    transform: translatex(0);
+  }
+}
+
+@keyframes buttonTransition {
+  from {
+    transform: translateY(-300%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes divTransition {
+  from {
+    transform:translateX(100%)translateY(500%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

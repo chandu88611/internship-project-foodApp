@@ -1,0 +1,84 @@
+.thead-dark{
+    display: flex;
+    background-color: aquamarine;
+    margin: 2vw;
+    /* position: relative; */
+    /* margin-bottom: 200px;  */
+}
+.th{
+    padding: 15px;
+    background: linear-gradient(90deg, rgb(71, 23, 0) 0%, rgb(87, 2, 34) 100%);
+color:  rgb(255, 255, 255);
+
+text-shadow: rgb(0, 0, 0) -1px -1px 0px;
+}
+.image2{
+    width: 13vw;
+    height: 17vh;
+}
+
+
+.tr_br{
+    border: none;
+    box-shadow:#333 0px 1px 5px;
+    /* background: rgb(241, 239, 213); */
+}
+
+td{
+    padding: 5px;  
+   
+    color:  rgb(255, 0, 106);
+    text-shadow: rgb(2, 224, 253) -1.5px 1.5px 0px;
+    font-size: 1.1rem;
+    font-family:'Times New Roman', Times, serif;
+   padding-left: 40px;
+   padding-right: 25px;
+   /* border-left: solid 1px green; */
+   font-family: 'Times New Roman', Times, serif;
+}
+.img3{
+    width: 2vw;
+    height: 5vh;
+}
+
+
+
+.delete_container{
+position: absolute;
+background: white;
+border: 1px solid ;
+border-radius: 10px;
+margin-left: 39vw;
+width: 40vw;
+
+box-shadow:#333 -1px 1px 5px;
+
+}
+
+.second_con{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.modal_footer>button{
+    background-color: red;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.update_container{
+    position: absolute;
+    margin-left: 34vw;
+    
+    box-shadow:#333 -1px 1px 5px;
+}
+.update_container>button{
+  margin-left: 11vw;
+  height: 5vh;
+  width: 7vw;
+  color: black;
+  background: yellow;
+  border-radius: 5px;
+}
