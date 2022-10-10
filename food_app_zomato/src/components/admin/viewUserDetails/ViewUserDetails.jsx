@@ -15,7 +15,7 @@ import {getUserDetails,postUserDetails} from "../../../actions/Actions"
     }
     componentDidMount(){
         this.props.getUserDetails();
-        console.log("userdetails"+this.state.userDetails)
+        console.log("userdetails"+ this.state.userDetails)
     }
     static getDerivedStateFromProps(props,state){
 if(props){
@@ -55,7 +55,7 @@ return null
         
         <tr key={index} className="tr_br"  >
             <td  style={{color:"black",textShadow:"2px  -3px 5px grey"}}>{index+1}</td>
-            <td   style={{color:"rgb(255, 0, 106)",textShadow:"2px -3px 5px grey"}} > {record.userFirstName} {record.userLastName}</td>
+            <td   style={{color:"black",textShadow:"2px -3px 5px grey"}} > {record.userFirstName} {record.userLastName}</td>
             
             <td style={{color:"blue",textShadow:"2px  -3px 5px grey"}}>{record.userEmail}</td>
            

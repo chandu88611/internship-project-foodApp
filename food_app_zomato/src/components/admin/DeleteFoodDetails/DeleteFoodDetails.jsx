@@ -98,9 +98,10 @@ renderDeleteModel(){
     </div>)
 }
   dispatchDeleteFoodDetails(id){
-this.props.deleteFoodDetails(id)
-console.log(this.state.setDeleteFDID)
-if(this.props.deleteFoodDetails(id)){
+      console.log(id)
+ this.props.deleteFoodDetails(id)
+ 
+ if(this.props.deleteFoodDetails(id)){
 
     window.location.reload()
 }

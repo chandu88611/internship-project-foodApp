@@ -2,31 +2,32 @@ import React, { Component } from 'react'
 import "./Dashboard.css"
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import { getUserDetails } from '../../actions/Actions';
+import { getUserDetails ,postUserDetails } from '../../actions/Actions';
 import { NavLink } from 'react-router-dom'
  class Dashboard extends Component {
   constructor(){
     super()
     this.state={
       userDetails:[],
-      totalUsers:''
+      totalUsers:'18'
     }
-   
-
     
   }
   componentDidMount(props){
     this.props.getUserDetails();
   //  let c= typeof(this.state.userDetails)
   // let size =(this.state.userDetails).length;
+     
+    
+    this.props.getUserDetails();
     console.log("userdetails"+ this.state.userDetails)
-    this.setState({totalUsers:"16"})
     
 }
 static getDerivedStateFromProps(props,state){
 if(props){
 return{
-    userDetails:props.userDetails
+  userDetails:props.userDetails,
+  // totalUsers:props.userDetails.length
 }
 }
 return null
@@ -74,15 +75,14 @@ render() {
     )
   }
 }
-
 function mapStateToProps(state){
   return {
-      userDetails:state.userDetails
+      userDetails:state.userDetails,
   }
 }
 // we will dispatch an action here  'GET_LATEST_US_NEWS_HEAD_LINES'
 function mapDispatchToProps(dispatch){
-  return bindActionCreators({getUserDetails},dispatch)  
+  return bindActionCreators({getUserDetails,postUserDetails},dispatch)  
 }
 
 export default connect(mapStateToProps,mapDispatchToProps)(Dashboard);

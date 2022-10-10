@@ -12,7 +12,7 @@ switch (action.type) {
     case "ADMIN_DELETE_FOOD_DETAILS":     
     return {...state};
       case "ADMIN_DELETE_FOOD_DETAILS_RECIEVED":
-            return {...state,  response:action.response};
+            return {...state,data:action.data};
          case "ADMIN_UPDATE_FOOD_DETAILS":
            return {...state}
         case "ADMIN_UPDATE_GET_FOOD_DETAILS_RECIEVED": 

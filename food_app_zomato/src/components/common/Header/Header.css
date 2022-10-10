@@ -44,3 +44,21 @@ font-size: 1.2rem;
     color: aliceblue;
     margin-left: 20vw;
 }
+
+.register{
+    background:transparent;
+    background-color: rgb(75, 174, 255);
+    border: aliceblue 1px solid;
+    height: 5vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: auto;
+    margin-bottom:auto ;
+    width: 8vw;
+    box-shadow: 0 0 16px white;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    
+}

@@ -47,7 +47,7 @@ function*actionWatcher(){
     yield takeLatest("USER_DETAILS",postUserDetails)
     yield takeLatest("ADMIN_DELETE_FOOD_DETAILS",deleteFoodDetails)
     yield takeLatest("ADMIN_UPDATE_FOOD_DETAILS",updateFoodDetails)
-  
+    
 }
 export default function*rootSaga(){
     yield all([actionWatcher()])

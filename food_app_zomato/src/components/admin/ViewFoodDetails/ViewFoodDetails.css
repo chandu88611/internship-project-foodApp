@@ -1,6 +1,6 @@
 .thead-dark{
     display: flex;
-    background-color: aquamarine;
+    background-color: rgb(70, 235, 180);
     margin: 2vw;
     /* position: relative; */
     /* margin-bottom: 200px;  */
@@ -27,8 +27,8 @@ text-shadow: rgb(0, 0, 0) -1px -1px 0px;
 td{
     padding: 5px;  
    
-    color:  rgb(255, 0, 106);
-    text-shadow: rgb(2, 224, 253) -1.5px 1.5px 0px;
+    color:  rgb(5, 5, 5);
+    text-shadow: rgb(253, 249, 2) 0px 0px 1px;
     font-size: 1.1rem;
     font-family:'Times New Roman', Times, serif;
    padding-left: 40px;

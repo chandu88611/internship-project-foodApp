@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {BrowserRouter as Router, NavLink } from 'react-router-dom'
+import {BrowserRouter as Router } from 'react-router-dom'
 import "./Header.css"
 export default class Header extends Component {
   constructor(){
@@ -28,7 +28,7 @@ anime(){  setInterval(() => {
    <a href="/" style={{textDecoration:"none", color:"black"}}>  Dashboard </a></h3>
    <h4>{this.state.header}</h4>
    
-     <h4><a href="/login"  style={{textDecoration:"none", color:"white"}}>Register</a> </h4>
+    <div className="register"> <h4><a href="/login"  style={{textDecoration:"none", color:"white"}}>Register</a> </h4></div>
 
    </div> 
    </Router>

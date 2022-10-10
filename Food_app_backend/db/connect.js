@@ -1,7 +1,8 @@
 const {MongoClient}=require('mongodb')
 
   module.exports = async function connectToMongoDb(){
-    const uri=""
+    const uri="mongodb+srv://chandan:2xcVW4SPf.SdAYU@cluster0.wnqqekd.mongodb.net/?retryWrites=true&w=majority"
+    
     const client=new MongoClient(uri)
     try{
         await client.connect();

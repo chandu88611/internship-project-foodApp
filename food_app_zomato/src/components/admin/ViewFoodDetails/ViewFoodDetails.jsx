@@ -41,7 +41,7 @@ return null
             <div className="food_table">
             <table className="table">
             
-            <tr>
+            <tr className='th'>
                 <th className='th'>SL NO</th>
                 <th className='th'>Restaurent Name</th>
                 <th className='th'>Restaurent Address</th>
