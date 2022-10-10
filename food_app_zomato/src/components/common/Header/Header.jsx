@@ -25,7 +25,7 @@ anime(){  setInterval(() => {
   
    </header></div>
    <h3> 
-   <a href="/" style={{textDecoration:"none", color:"black"}}>  Dashboard </a></h3>
+   <a href="/" style={{textDecoration:"none", color:"black"}}>Dashboard </a></h3>
    <h4>{this.state.header}</h4>
    
     <div className="register"> <h4><a href="/login"  style={{textDecoration:"none", color:"white"}}>Register</a> </h4></div>

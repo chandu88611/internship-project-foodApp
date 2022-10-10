@@ -1,11 +1,16 @@
 .header{
     display: flex;
 
-    margin-top: 10px;
+    /* margin-top: 10px; */
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgb(16, 0, 235) 0%, rgb(250, 5, 5) 100%);
 color:  rgba(255,0,0,1);
 flex-direction: row;
+height: 6vw;
+/* justify-content: center; */
+align-items: center;
+top: 0;
+position: sticky;
 }
 input{
     padding: 7px;

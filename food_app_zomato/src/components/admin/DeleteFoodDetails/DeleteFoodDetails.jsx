@@ -31,7 +31,7 @@ return null
     // const {params}=this.props.match
     return (
         <section className="food-details-section">
-            <h2> Update Food Details</h2>
+            <h2> Delete Food Details</h2>
             {/* {this.renderDeleteModel()} */}
           {this.state.show? this.renderDeleteModel():null}
             {this.renderTable()}

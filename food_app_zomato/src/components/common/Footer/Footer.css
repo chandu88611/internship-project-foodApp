@@ -4,7 +4,8 @@
     height: 11vh;
     background-color: rgb(89, 106, 139);
     flex-direction: row;
-    
+    bottom: 0;
+    position: sticky;
 }
 .image1{
   width: 35px;
