@@ -7,11 +7,13 @@ export const postFoodDetails=(data)=>({
 
     type: "ADMIN_POST_FOOD_DETAILS",
     payload:data
+
 })
 export const deleteFoodDetails=(foodId)=>({
 
     type: "ADMIN_DELETE_FOOD_DETAILS",
     payload:foodId
+
 })
 export const updateFoodDetails=(foodRecords)=>({
 
@@ -23,6 +25,7 @@ export const postUserDetails=(data)=>({
 
     type: "USER_DETAILS",
     payload:data
+    
 })
 export const getUserDetails=()=>({
 

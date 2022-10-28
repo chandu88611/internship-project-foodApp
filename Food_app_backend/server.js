@@ -17,7 +17,7 @@ let  db= client.db("food")
 //     if(dbconneror){
 //         throw dbconneror
 //     }
-//     else{
+//     else{``
       
 //        const dblist=client.db().admin().listDatabases();
 //        if(dblist.databases){
@@ -101,8 +101,8 @@ app.get("/viewfooddetails",(req,res)=>{
           
 })
 
-app.delete("/deletefooddetails",(req,res)=>{
-    db.collection("foodDetails").findOneAndDelete({_id:ObjectID(req.body.id)},(err,result)=>{
+app.delete("/deletefooddetails/:id",(req,res)=>{
+    db.collection("foodDetails").findOneAndDelete({id:ObjectID(req.body.id)},(err,result)=>{
         if(err){
             throw err
         }else{
